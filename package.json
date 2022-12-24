@@ -10,9 +10,13 @@
     "test": "jest"
   },
   "dependencies": {
+    "algoliasearch": "^4.14.3",
+    "algoliasearch-helper": "^3.11.1",
     "core-js": "^3.25.3",
+    "instantsearch.css": "^7.4.5",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
+    "vue-instantsearch": "^4.7.0",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
   },
@@ -31,5 +35,8 @@
     "tailwindcss": "^3.2.4",
     "ts-jest": "^29.0.3",
     "vue-jest": "^3.0.4"
+  },
+  "engines": {
+    "node": ">=16.0.0 <17.0.0"
   }
 }
