@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "awesome-mappy",
+    title: "Algolia Search",
     htmlAttrs: {
       lang: "en",
     },
@@ -49,5 +49,15 @@ export default {
         autoprefixer: {},
       },
     },
+  },
+
+  publicRuntimeConfig: {
+    APPLICATION_SECRET: process.env.APPLICATION_ID,
+    ADMIN_SECRET: process.env.ADMIN_API_KEY,
+  },
+
+  env: {
+    applicationId: process.env.APPLICATION_ID,
+    adminApiKey: process.env.ADMIN_API_KEY,
   },
 };
